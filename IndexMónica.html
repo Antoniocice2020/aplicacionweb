@@ -8,22 +8,21 @@
     <script> 
     function validar(){
     var email=document.getElementById ("email").value;
-    var pwd=document.getElementById("micontraseya").value;
+    var pwd=document.getElementById("mypassword").value;
     if (email=="x@gmail.com" && pwd=="patata"){
-        alert("Perfecto")
+        alert("Te dejo entrar, anda");
     }
+    else{ 
+        alert("No me tomes por tonto");
     }
-
-    
-    
+    }    
     </script>
 </head>
 <body>
     <form action="" method="">
     <input type="email" name="" id="email">
-    <input type="password" name ="" id="password">
-
+    <input type="password" name ="" id="mypassword">
+    <input type="button" value="Validar" onclick="Validar()">
     </form>
-
 </body>
 </html>
